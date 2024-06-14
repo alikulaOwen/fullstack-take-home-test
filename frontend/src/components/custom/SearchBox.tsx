@@ -64,10 +64,10 @@ const SearchBox: React.FC = () => {
             left: 0,
             right: 0,
             zIndex: 10,
-            maxHeight: "200px", // Adjust max height as needed
-            overflowY: "auto", // Ensure scrollbar appears when content overflows
-            bgcolor: "background.paper", // Ensure background matches theme
-            border: "1px solid", // Example border style
+            maxHeight: "200px", 
+            overflowY: "auto",
+            bgcolor: "background.paper", 
+            border: "1px solid", 
           }}
         >
           <List className="w-full overflow-y-auto">
